@@ -30,7 +30,7 @@ function setRandomColors() {
 	  + randomColor()
 	  + ")";
 
-	 css.textContent = body.style.background + ";";
+	css.textContent = body.style.background + ";";
 }
 
 color1.addEventListener("input", setGradient);
